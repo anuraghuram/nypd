@@ -18,7 +18,8 @@ Data sources:
 
 [Department of City Planning GIS data for borough boundaries](https://data.cityofnewyork.us/City-Government/Borough-Boundaries/tqmj-j8zm)
 
-Design decisions/evaluation:
+Design decisions/summary evaluation:
+- Prior to downloading the raw data, I filtered complaints by report date (i.e. between 1/1/2019 - 12/31/2019).
 - This map only charts offense types where there are at least 200 cases in a given year. These are considered 'commonly ocurring' crimes.
 - Severity of crimes (misdemeanor, violation felony) are not included in this map, as the differences between boroughs were minimal (~0.5-1pp difference across the three levels)
 - The raw data leveraged for this visualisation does not provide insight into repeat offenders, nor does it provide visibility at household level i.e. number of complaints filed by an individual/household. 
