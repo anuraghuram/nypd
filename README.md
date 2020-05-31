@@ -1,6 +1,6 @@
 # NYPD interactive crimemap
 
-Using historic crime records and spatial data from NYC Open Data, I create an interactive crime map of NYC (2019).
+Using ~600k historic crime records and spatial data from NYC Open Data, I create an interactive crime map of NYC (year 2019).
 
 Primary features of the map:
 - Crime density by offense type and crime premises, down to zipcode level
