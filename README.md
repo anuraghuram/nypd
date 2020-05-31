@@ -10,9 +10,9 @@ Preview of map:
 ![](/crimemap.png)
 
 
-This repository consists of two python scripts:
-1. cleaning.py - to clean downloaded raw data, reclassify crime types and crime locations and write out the clean csv.
-2. mapviz.py - to build the visualisation using Folium (a leaflet.js library for Python)
+This repository consists of the following:
+1. cleaning.py - script clean downloaded raw data, reclassify crime types and crime locations and write out the clean csv
+2. mapviz.py - script to build the visualisation using Folium (a leaflet.js library for Python)
 
 Data sources:
 
