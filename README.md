@@ -4,11 +4,6 @@ Using ~600k historic crime records and spatial data from NYC Open Data, I create
 - Crime density by offense type and crime premises, down to zipcode level
 - Annual aggregates by offense type x borough region
 
-Preview of map:
-![](/crimemap.png)
-![](/crimemap3.png)
-![](/crimemap2.png)
-
 This repository consists of the following:
 1. cleaning.py - script to clean downloaded raw data, reclassify crime types and crime locations and write out the clean csv
 2. mapviz.py - script to build the visualisation using Folium (a leaflet.js library for Python)
@@ -18,6 +13,11 @@ Data sources:
 [New York City Police Department complaint data](https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i)
 
 [Department of City Planning GIS data for borough boundaries](https://data.cityofnewyork.us/City-Government/Borough-Boundaries/tqmj-j8zm)
+
+Preview of map:
+![](/crimemap.png)
+![](/crimemap3.png)
+![](/crimemap2.png)
 
 Design decisions and summary evaluation:
 - Prior to downloading the raw data, I filtered complaints by report date (i.e. between 1/1/2019 - 12/31/2019).
