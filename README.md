@@ -6,8 +6,8 @@ Using ~600k historic crime records and spatial data from NYC Open Data, I create
 
 Preview of map:
 ![](/crimemap.png)
-![](/crimemap2.png)
 ![](/crimemap3.png)
+![](/crimemap2.png)
 
 This repository consists of the following:
 1. cleaning.py - script to clean downloaded raw data, reclassify crime types and crime locations and write out the clean csv
