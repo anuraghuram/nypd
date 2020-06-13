@@ -16,7 +16,8 @@ import cleaning
 # -------------------
 
 # Import cleaned nypd df
-df = pd.read_csv('NYPD_Complaint_Data_Historic_Clean.csv')
+sample = pd.read_csv('NYPD_Complaint_Data_Historic_Clean.csv')
+df = sample.copy()
 
 # Select random sample (clean df = ~600k obs) to reduce runtime
 df = df.sample(n=10000)
